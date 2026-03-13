@@ -1,155 +1,189 @@
-**Update System**
+# Arch Linux Developer Setup Script
 
-Perintah ini hanya update seluruh sistem.
+Script ini digunakan untuk **menginstall environment development lengkap di Arch Linux** secara otomatis menggunakan `pacman` dan `yay`.
 
-pacman -Syu
+Script ini cocok untuk:
 
-**Base Packages (CLI & tools dasar)**
+* Developer
+* Fresh Arch Linux installation
+* Setup workstation coding dengan cepat
 
-**Paket	Fungsi**
+---
 
-git	version control
-base-devel	tools build Arch (makepkg, gcc, dll)
-wget	download file via terminal
-curl	HTTP client
-python	bahasa Python
-python-pip	package manager Python
-neovim	text editor
-zsh	shell alternatif
-tmux	terminal multiplexer
-htop	monitor proses
-btop	system monitor modern
-fastfetch	info system seperti neofetch
-unzip	ekstrak zip
-zip	membuat zip
-p7zip	ekstrak 7z
-rsync	sync file
-ripgrep	pencarian file super cepat
-fd	alternatif find
-github-cli	CLI GitHub
+# Features
 
-**Fonts**
+Script ini akan menginstall berbagai tools penting seperti:
 
-ttf-fira-code
-ttf-jetbrains-mono
-noto-fonts
-noto-fonts-emoji
+* Development tools
+* Browsers
+* Coding fonts
+* Multimedia apps
+* CLI utilities
+* Docker environment
+* Database tools
+* AUR packages
 
-Biasanya dipakai untuk coding font + emoji support.
+---
 
-**Development Tools**
+# Packages Installed
 
-Paket	Fungsi
-nodejs	runtime JavaScript
-npm	package manager Node
-docker	container
-postgresql	database
-redis	in-memory database
-dbeaver	GUI database client
+## Base Packages
 
-**Multimedia Apps**
+Tools dasar untuk development dan CLI.
 
-**Paket**
+* git
+* base-devel
+* wget
+* curl
+* python
+* python-pip
+* neovim
+* zsh
+* tmux
+* htop
+* btop
+* fastfetch
+* unzip
+* zip
+* p7zip
+* rsync
+* ripgrep
+* fd
+* github-cli
 
-VLC → video player
+---
 
-OBS → screen recording / streaming
+## Fonts
 
-GIMP → image editor
+Font untuk coding dan emoji support.
 
-**Utilities**
+* ttf-fira-code
+* ttf-jetbrains-mono
+* noto-fonts
+* noto-fonts-emoji
 
-**Paket**
+---
 
-flameshot
-timeshift
-networkmanager
-bluez
-bluez-utils
-pavucontrol
+## Development Tools
 
-**Fungsi:**
+Tools yang biasa dipakai developer.
 
-flameshot → screenshot
+* nodejs
+* npm
+* docker
+* postgresql
+* redis
+* dbeaver
 
-timeshift → system backup
+---
 
-networkmanager → network service
+## Multimedia Apps
 
-bluez → bluetooth
+Aplikasi multimedia.
 
-pavucontrol → audio control
+* vlc
+* obs-studio
+* gimp
 
-**Discord**
+---
 
-**Paket**
+## Utilities
 
-discord
+Tools tambahan untuk sistem.
 
-**Services yang di enable**
+* flameshot
+* timeshift
+* networkmanager
+* bluez
+* bluez-utils
+* pavucontrol
 
-Script ini juga mengaktifkan service berikut:
+---
 
-Service
-NetworkManager
-bluetooth
-docker
+## Communication
 
-Dan docker langsung dijalankan.
+* discord
 
-**Install AUR Helper**
+---
 
-Script ini menginstall:
+## AUR Packages
 
-Paket
-yay
+Install melalui `yay`.
 
-yay dipakai untuk install paket dari AUR.
+* google-chrome
+* brave-bin
+* spotify
+* zapzap
+* xampp
+* visual-studio-code-bin
+* postman-bin
+* jdk25-openjdk-bin
 
-**AUR Packages (via yay)**
+---
 
-**Paket**
+# Services Enabled
 
-google-chrome
-brave-bin
-spotify
-zapzap
-xampp
-visual-studio-code-bin
-postman-bin
-jdk25-openjdk-bin
+Script ini juga akan mengaktifkan service berikut:
 
-**Fungsi:**
+* NetworkManager
+* Bluetooth
+* Docker
 
-Chrome → browser
+---
 
-Brave → browser privacy
+# Installation
 
-Spotify → music
+Clone repository ini:
 
-ZapZap → WhatsApp desktop client
+```bash
+git clone https://github.com/username/repository.git
+cd repository
+```
 
-XAMPP → web server stack
+Jalankan script:
 
-VS Code → code editor
+```bash
+chmod +x install.sh
+./install.sh
+```
 
-Postman → API testing
+---
 
-JDK 25 → Java development kit
+# Requirements
 
-**Total Paket yang diinstall**
+* Arch Linux
+* sudo access
+* internet connection
 
-Pacman packages: sekitar 40+ paket
+---
 
-AUR packages: 8 paket
+# After Installation
 
-**Script ini membuat setup developer workstation Arch Linux dengan:**
+Setelah install selesai, disarankan untuk:
 
-✔ CLI tools
-✔ Coding fonts
-✔ Docker environment
-✔ Databases
-✔ Multimedia tools
-✔ Browsers
-✔ IDE / coding tools
-✔ WhatsApp + Discord
+* reboot system
+* login ulang untuk docker group
+* konfigurasi shell (zsh / bash)
+
+---
+
+# Screenshot
+
+Tambahkan screenshot environment kamu di sini.
+
+Contoh:
+
+* fastfetch
+* desktop setup
+* terminal setup
+
+---
+
+# Contributing
+
+Pull request dipersilakan jika ingin menambahkan:
+
+* packages baru
+* optimasi script
+* bug fixes
+
