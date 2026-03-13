@@ -136,15 +136,15 @@ Script ini juga akan mengaktifkan service berikut:
 Clone repository ini:
 
 ```bash
-git clone https://github.com/username/repository.git
-cd repository
+git clone https://github.com/archaicpetra23/Arch-Linux-Apps-Install-Script.git
+cd Arch-Linux-Apps-Install-Script
 ```
 
 Jalankan script:
 
 ```bash
-chmod +x install.sh
-./install.sh
+chmod +x arch-dev-setup.sh
+arch-dev-setup.sh
 ```
 
 ---
