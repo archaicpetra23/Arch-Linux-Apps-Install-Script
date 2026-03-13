@@ -1,11 +1,13 @@
-1. Update System
+**Update System**
 
 Perintah ini hanya update seluruh sistem.
 
 pacman -Syu
 
-2. Base Packages (CLI & tools dasar)
-Paket	Fungsi
+**Base Packages (CLI & tools dasar)**
+
+**Paket	Fungsi**
+
 git	version control
 base-devel	tools build Arch (makepkg, gcc, dll)
 wget	download file via terminal
@@ -26,8 +28,8 @@ ripgrep	pencarian file super cepat
 fd	alternatif find
 github-cli	CLI GitHub
 
-3. Fonts
-Font
+**Fonts**
+
 ttf-fira-code
 ttf-jetbrains-mono
 noto-fonts
@@ -35,7 +37,8 @@ noto-fonts-emoji
 
 Biasanya dipakai untuk coding font + emoji support.
 
-4. Development Tools
+**Development Tools**
+
 Paket	Fungsi
 nodejs	runtime JavaScript
 npm	package manager Node
@@ -44,13 +47,9 @@ postgresql	database
 redis	in-memory database
 dbeaver	GUI database client
 
-5. Multimedia Apps
-Paket
-vlc
-obs-studio
-gimp
+**Multimedia Apps**
 
-Fungsi:
+**Paket**
 
 VLC → video player
 
@@ -58,8 +57,10 @@ OBS → screen recording / streaming
 
 GIMP → image editor
 
-6. Utilities
-Paket
+**Utilities**
+
+**Paket**
+
 flameshot
 timeshift
 networkmanager
@@ -67,7 +68,7 @@ bluez
 bluez-utils
 pavucontrol
 
-Fungsi:
+**Fungsi:**
 
 flameshot → screenshot
 
@@ -79,10 +80,13 @@ bluez → bluetooth
 
 pavucontrol → audio control
 
-7. Discord
-Paket
+**Discord**
+
+**Paket**
+
 discord
-8. Services yang di enable
+
+**Services yang di enable**
 
 Script ini juga mengaktifkan service berikut:
 
@@ -93,7 +97,7 @@ docker
 
 Dan docker langsung dijalankan.
 
-9. Install AUR Helper
+**Install AUR Helper**
 
 Script ini menginstall:
 
@@ -102,8 +106,10 @@ yay
 
 yay dipakai untuk install paket dari AUR.
 
-10. AUR Packages (via yay)
-Paket
+**AUR Packages (via yay)**
+
+**Paket**
+
 google-chrome
 brave-bin
 spotify
@@ -113,7 +119,7 @@ visual-studio-code-bin
 postman-bin
 jdk25-openjdk-bin
 
-Fungsi:
+**Fungsi:**
 
 Chrome → browser
 
@@ -131,15 +137,13 @@ Postman → API testing
 
 JDK 25 → Java development kit
 
-Total Paket yang diinstall
+**Total Paket yang diinstall**
 
 Pacman packages: sekitar 40+ paket
 
 AUR packages: 8 paket
 
-Jika diringkas
-
-Script ini membuat setup developer workstation Arch Linux dengan:
+**Script ini membuat setup developer workstation Arch Linux dengan:**
 
 ✔ CLI tools
 ✔ Coding fonts
