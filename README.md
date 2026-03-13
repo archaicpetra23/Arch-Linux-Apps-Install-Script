@@ -164,26 +164,3 @@ Setelah install selesai, disarankan untuk:
 * reboot system
 * login ulang untuk docker group
 * konfigurasi shell (zsh / bash)
-
----
-
-# Screenshot
-
-Tambahkan screenshot environment kamu di sini.
-
-Contoh:
-
-* fastfetch
-* desktop setup
-* terminal setup
-
----
-
-# Contributing
-
-Pull request dipersilakan jika ingin menambahkan:
-
-* packages baru
-* optimasi script
-* bug fixes
-
