@@ -144,7 +144,7 @@ Jalankan script:
 
 ```bash
 chmod +x arch-dev-setup.sh
-arch-dev-setup.sh
+./arch-dev-setup.sh
 ```
 
 ---
